@@ -22,6 +22,7 @@
         <lombok.version>1.18.28</lombok.version>
         <jedis.version>5.1.2</jedis.version>
         <mapstruct.version>1.5.5.Final</mapstruct.version>
+        <spring-kafka.version>3.1.2</spring-kafka.version>
     </properties>
 
     <dependencies>
@@ -58,7 +59,7 @@
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
-            <version>3.1.2</version>
+            <version>${spring-kafka.version}</version>
         </dependency>
 
     </dependencies>
