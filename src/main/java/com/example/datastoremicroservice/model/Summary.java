@@ -17,6 +17,7 @@ public class Summary {
 
     private long sensorId;
     private Map<MeasurementType, List<SummaryEntry>> values;
+    private long counter;
 
     @NoArgsConstructor
     @Getter
@@ -26,6 +27,7 @@ public class Summary {
 
         private SummaryType type;
         private double value;
+        private long counter;
 
     }
 
